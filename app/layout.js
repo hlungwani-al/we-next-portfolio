@@ -11,7 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "WH Profile",
-  description:"We Hlungwani here—AI aficionado and full stack developer extraordinaire. I turn code into magic, crafting intelligent solutions that make tech dance. Let's create something extraordinary together"};
+  description:
+    "We Hlungwani here—AI aficionado and full stack developer extraordinaire. I turn code into magic, crafting intelligent solutions that make tech dance. Let's create something extraordinary together",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -25,7 +27,6 @@ export default function RootLayout({ children }) {
         </main>
         <Footer />
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
   );
 }
