@@ -5,7 +5,7 @@ export const projectsData = [
         description: "Developed a sophisticated chatbot using Azure OpenAI. I integrated various services including Azure Cognitive Services for natural language processing, Azure Functions for serverless computing, and Azure Blob Storage for data management. The chatbot is capable of understanding and responding to user queries in real-time, leveraging the latest advancements in AI. Additionally, I implemented a robust authentication system using OAuth and ensured scalability and performance with Azure Kubernetes Service (AKS).",
         tools: ['Azure OpenAI', 'Azure Cognitive Services', 'Azure Functions', 'Azure Blob Storage', 'OAuth', 'Azure Kubernetes Service (AKS)', 'Node.js', 'Express', 'MongoDB'],
         role: 'AI Engineer',
-        code: '',
+        code: '#',
         demo: '',
     },
     
@@ -21,7 +21,7 @@ export const projectsData = [
     ,
     {
         id: 3,
-        name: 'Security Services Website',
+        name: 'Northern Shield Security Website',
         description: "Developed a professional and secure website for a security services company. The site includes detailed information about their services, a client portal for secure communication, and an appointment scheduling system. I used Vanilla JavaScript, HTML, and CSS for the front-end, and Firebase for hosting and backend services. The website is optimized for performance and security, ensuring a seamless user experience.",
         tools: ['Vanilla JavaScript', 'HTML', 'CSS', 'Firebase', 'Responsive Design'],
         role: 'Front-End Developer',
@@ -46,7 +46,5 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: 'https://github.com/hlungwani-al/angluar-spring-sql-login-register',
         demo: '',
-    }
-    
-    
+    }  
 ];
